@@ -44,6 +44,8 @@ namespace c__study_08
             Console.WriteLine(rec3.getArea());
             Console.WriteLine(Rectangle.calcRecArea(100, 200));
 
+            //Product p = new Product();
+            //
             Product p1 = new Product("고구마", 500);
             Console.WriteLine(p1.name+"의 가격:"+p1.price);
             Product p2 = new Product("대게");

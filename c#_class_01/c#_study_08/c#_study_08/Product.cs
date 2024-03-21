@@ -21,7 +21,7 @@ namespace c__study_08
 
 
         //
-        //
+        //생성자는 웬만하면 public을 사용한다.
         public Product(string name, int price)
         {
             this.name = name;
@@ -41,6 +41,7 @@ namespace c__study_08
         string description { get; set; }
         private int vipPrice { get; set; }
 
+        // vip
         public void setvipPrice(int vipPrice)
         {
             this.vipPrice = vipPrice;
